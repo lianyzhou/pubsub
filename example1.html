@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+	</head>
+	<body>
+		<script src="resources/jquery-1.8.0.min.js"></script>
+		<script src="sea.js"></script>
+		<script>
+			seajs.config({
+                base: 'resources'
+            });
+			seajs.use('example1', function(example1) {
+         		example1.init();
+            });
+		</script>
+	</body>
+</html>
